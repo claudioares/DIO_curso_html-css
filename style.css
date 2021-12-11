@@ -1,23 +1,41 @@
+.imadtopo{
+    border: 1px solid rgb(99, 11, 72);
+    border-radius: 10%;
+}
+
 body{
     background: rgb(0, 0, 10);
 }
 #title, .subtitle .texto{
-    color: rgb(236, 98, 225);
+    color: rgb(99, 11, 72);
 }
 
 .subtitle{
     font-size: 16px;
     font-style: italic;
 }
-.texto, .nome{
+.texto, .subtitle2{
     color: rgb(250, 249, 250);
 }
 .rodape{
-    color: rgb(236, 98, 225);
+    color: rgb(248, 244, 247);
+    text-decoration: underline;
+    font-family: Gabriola;
+    padding-left: 15px;
 }
 .post{
     background: rgb(58, 52, 66);
     padding: 10px;
-    border: 3px solid rgb(250, 249, 250);
+    border: 3px solid rgb(99, 11, 72);
+    border-top: 3px solid rgb(99, 11, 72);
     margin: 10px;
+}
+.texto{
+    font-family: Gabriola
+}
+.subtitle2{
+    text-decoration: underline;
+}
+.nome{
+    color: rgb(99, 11, 72);
 }
